@@ -24,7 +24,7 @@ Rules:
 st.set_page_config(page_title="HEALTHNOW")
 
 st.title("HEALTHNOW")
-st.subheader("Vishesh's Health Bot")
+st.success("Vishesh's healthbot")
 
 st.info("""
 ⚠️ **Important Instructions**
