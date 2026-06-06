@@ -25,6 +25,18 @@ st.set_page_config(page_title="HEALTHNOW")
 
 st.title("HEALTHNOW - Your personal health bot")
 
+st.info("""
+⚠️ **Important Instructions**
+
+- This chatbot is for informational purposes only.
+- Always consult a qualified doctor for medical advice.
+- Do not rely on this bot in emergencies.
+- Avoid sharing sensitive personal health data.
+- Follow basic hygiene and safety precautions.
+
+Stay safe and use responsibly.
+""")
+
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
