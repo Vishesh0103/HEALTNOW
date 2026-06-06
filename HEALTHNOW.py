@@ -23,7 +23,7 @@ Rules:
 
 st.set_page_config(page_title="HEALTHNOW")
 
-st.title("HEALTHNOW - Your personal health bot")
+st.title("HEALTHNOW")
 
 st.info("""
 ⚠️ **Important Instructions**
