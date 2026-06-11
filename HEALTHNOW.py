@@ -25,25 +25,6 @@ st.set_page_config(page_title="HEALTHNOW")
 
 st.title("HEALTHNOW")
 st.subheader("VISHESH'S HEALTH BOT")
-st.markdown(
-    """
-    <style>
-    
-    /* Main background */
-    .stApp {
-        background: linear-gradient(to right, #e6f2ff, #cce6ff);
-        color: #000000;
-    }
-
-    /* Header (top bar) */
-    header {
-        background-color: #4da6ff !important;
-    }
-
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 st.info("""
 ⚠️ **Important Instructions**
