@@ -40,23 +40,6 @@ st.markdown(
         background-color: #4da6ff !important;
     }
 
-    /* Chat input box (bottom area) */
-    div[data-testid="stChatInput"] {
-        background-color: #f0f8ff;
-        border-top: 2px solid #4da6ff;
-    }
-
-    /* Input text field */
-    textarea {
-        background-color: #ffffff !important;
-        color: black !important;
-    }
-
-    /* Optional: hide default footer */
-    footer {
-        visibility: hidden;
-    }
-
     </style>
     """,
     unsafe_allow_html=True
