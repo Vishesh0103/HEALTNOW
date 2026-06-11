@@ -28,29 +28,31 @@ st.subheader("VISHESH'S HEALTH BOT")
 st.markdown(
     """
     <style>
+    
+    /* Main background */
     .stApp {
-        background: linear-gradient(to right, #8B0000, #FF0000);
+        background: linear-gradient(to right, #0f0f0f, #3b0000);
+        color: white;
     }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-  
-st.markdown(
-    """
-    <style>
-    footer {visibility: hidden;}
-    header {background-color: #7a0000 !important;}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-st.markdown(
-    """
-    <style>
-    footer {
+
+    /* Header (top bar) */
+    header {
         background-color: #7a0000 !important;
     }
+
+    /* Footer (bottom bar) */
+    footer {
+        background-color: #4a0000 !important;
+        color: white;
+    }
+
+    /* Optional: remove Streamlit branding spacing */
+    footer:after {
+        content: '';
+        display: block;
+        height: 0px;
+    }
+
     </style>
     """,
     unsafe_allow_html=True
