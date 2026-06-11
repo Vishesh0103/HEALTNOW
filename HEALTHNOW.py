@@ -34,13 +34,12 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True
-)
+  
 st.markdown(
     """
     <style>
-    header {
-        background-color: #7a0000 !important;
-    }
+    footer {visibility: hidden;}
+    header {background-color: #7a0000 !important;}
     </style>
     """,
     unsafe_allow_html=True
@@ -48,8 +47,9 @@ st.markdown(
 st.markdown(
     """
     <style>
-    footer {visibility: hidden;}
-    header {background-color: #7a0000 !important;}
+    footer {
+        background-color: #7a0000 !important;
+    }
     </style>
     """,
     unsafe_allow_html=True
