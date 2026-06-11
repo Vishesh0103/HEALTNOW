@@ -25,6 +25,16 @@ st.set_page_config(page_title="HEALTHNOW")
 
 st.title("HEALTHNOW")
 st.subheader("VISHESH'S HEALTH BOT")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(to right, #000000, #434343);
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.info("""
 ⚠️ **Important Instructions**
