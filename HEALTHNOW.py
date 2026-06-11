@@ -31,26 +31,30 @@ st.markdown(
     
     /* Main background */
     .stApp {
-        background: linear-gradient(to right, #0f0f0f, #3b0000);
-        color: white;
+        background: linear-gradient(to right, #e6f2ff, #cce6ff);
+        color: #000000;
     }
 
     /* Header (top bar) */
     header {
-        background-color: #7a0000 !important;
+        background-color: #4da6ff !important;
     }
 
-    /* Footer (bottom bar) */
+    /* Chat input box (bottom area) */
+    div[data-testid="stChatInput"] {
+        background-color: #f0f8ff;
+        border-top: 2px solid #4da6ff;
+    }
+
+    /* Input text field */
+    textarea {
+        background-color: #ffffff !important;
+        color: black !important;
+    }
+
+    /* Optional: hide default footer */
     footer {
-        background-color: #4a0000 !important;
-        color: white;
-    }
-
-    /* Optional: remove Streamlit branding spacing */
-    footer:after {
-        content: '';
-        display: block;
-        height: 0px;
+        visibility: hidden;
     }
 
     </style>
