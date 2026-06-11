@@ -35,6 +35,25 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.markdown(
+    """
+    <style>
+    header {
+        background-color: #7a0000 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown(
+    """
+    <style>
+    footer {visibility: hidden;}
+    header {background-color: #7a0000 !important;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.info("""
 ⚠️ **Important Instructions**
